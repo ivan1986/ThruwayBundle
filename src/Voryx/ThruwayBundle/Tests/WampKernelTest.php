@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Voryx\ThruwayBundle\Tests;
-
 
 use Doctrine\Common\Annotations\AnnotationReader;
 use JMS\Serializer\Construction\UnserializeObjectConstructor;
@@ -12,15 +10,12 @@ use JMS\Serializer\JsonSerializationVisitor;
 use JMS\Serializer\Metadata\Driver\AnnotationDriver;
 use JMS\Serializer\Naming\CamelCaseNamingStrategy;
 use JMS\Serializer\Naming\SerializedNameAnnotationStrategy;
-use JMS\Serializer\SerializationContext;
 use JMS\Serializer\Serializer;
 use Metadata\MetadataFactory;
-use MyProject\Proxies\__CG__\stdClass;
 use PhpCollection\Map;
 use Psr\Log\NullLogger;
 use Symfony\Component\DependencyInjection\Container;
 use Symfony\Component\EventDispatcher\EventDispatcher;
-use Thruway\ClientSession;
 use Voryx\ThruwayBundle\Annotation\Register;
 use Voryx\ThruwayBundle\Mapping\URIClassMapping;
 use Voryx\ThruwayBundle\Tests\Fixtures\Person;
