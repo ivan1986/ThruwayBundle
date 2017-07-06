@@ -37,7 +37,7 @@
     "thruway/pawl-transport": "dev-master",
     "thruway/ratchet-transport": "dev-master",
     "thruway/raw-socket-transport": "dev-master",
-    "jms/serializer-bundle": "^1.1.0",
+    "jms/serializer-bundle": "^2.0",
     "react/child-process": "~0.4"
   },
   "require-dev": {
