@@ -31,19 +31,18 @@
     }
   },
   "require": {
-    "php": ">=5.4",
+    "php": ">=7.1",
     "symfony/finder": ">=2.4",
     "voryx/thruway": "~0.5",
-    "thruway/pawl-transport": "dev-master",
-    "thruway/ratchet-transport": "dev-master",
-    "thruway/raw-socket-transport": "dev-master",
     "jms/serializer-bundle": "^2.0",
-    "react/child-process": "~0.4"
+    "react/child-process": "~0.4",
+    "thruway/ratchet-transport": "dev-master",
+    "thruway/pawl-transport": "dev-master"
   },
   "require-dev": {
-    "symfony/symfony": "2.*",
-    "doctrine/orm": "~2.1",
-    "symfony/yaml": "2.*",
+    "symfony/symfony": "^2.8|^3.0",
+    "doctrine/orm": "^2.5",
+    "symfony/yaml": "^2.0",
     "phpunit/phpunit": "~4.0"
   }
 }
