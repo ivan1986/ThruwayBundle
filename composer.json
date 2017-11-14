@@ -32,17 +32,17 @@
   },
   "require": {
     "php": ">=7.1",
-    "symfony/finder": ">=2.4",
+    "symfony/finder": ">=2.4|~3.0",
     "voryx/thruway": "~0.5",
-    "jms/serializer-bundle": "^2.0",
-    "react/child-process": "~0.4",
+    "jms/serializer-bundle": "^2.2.0",
+    "react/child-process": "~0.5",
     "thruway/ratchet-transport": "dev-master",
     "thruway/pawl-transport": "dev-master"
   },
   "require-dev": {
     "symfony/symfony": "^2.8|^3.0",
     "doctrine/orm": "^2.5",
-    "symfony/yaml": "^2.0",
-    "phpunit/phpunit": "~4.0"
+    "symfony/yaml": "2.*|3.*",
+    "phpunit/phpunit": "~5.0"
   }
 }
